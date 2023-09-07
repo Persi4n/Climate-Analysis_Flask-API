@@ -1,10 +1,13 @@
 # Honolulu Climate Analysis
 
-This project performs a climate analysis of Honolulu, Hawaii, using Python, SQLAlchemy, and Flask. It includes an exploratory analysis of climate data and the creation of a Flask API to access the analysis results.
+## Overview
+
+The Honolulu Climate Analysis project is a data-driven exploration of the climate in Honolulu, Hawaii. It leverages Python, SQLAlchemy, and Flask to analyze historical weather data, provide insights, and offer access to the analysis results through a web API.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,7 +18,29 @@ This project performs a climate analysis of Honolulu, Hawaii, using Python, SQLA
 
 ## Introduction
 
-Honolulu Climate Analysis is a project that aims to provide insights into the climate data of Honolulu, Hawaii. It includes both data exploration and the creation of a Flask API to access the analysis results.
+Located in the tropical paradise of Hawaii, Honolulu experiences diverse weather patterns throughout the year. This project dives into the climate data to answer questions about precipitation, temperature trends, and station information. Whether you're planning a vacation or conducting climate research, this project provides valuable insights.
+
+## Features
+
+### 1. Precipitation Analysis
+
+- Find the most recent date in the dataset.
+- Calculate the previous 12 months of precipitation data.
+- View summary statistics for precipitation.
+- Visualize precipitation data over time.
+
+### 2. Station Analysis
+
+- Determine the total number of weather stations.
+- Identify the most active weather stations.
+- Retrieve temperature statistics for the most active station.
+- Access the last 12 months of temperature observations for the most active station.
+
+### 3. Flask API
+
+- Explore climate data through API endpoints.
+- Retrieve JSON data for precipitation, stations, temperature, and statistics.
+- Query temperature statistics for specific date ranges.
 
 ## Requirements
 
